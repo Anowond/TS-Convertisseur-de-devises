@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="dist/main.js" defer></script>
+  <link rel="stylesheet" href="style/style.css">
+  <title>Convertisseur de devises</title>
+</head>
+
+<body class="main">
+  <h1>Convertisseur de devises</h1>
+  <div class="input">
+    <label for="montant">Montant :</label>
+    <input type="number" id="montant">
+  </div>
+  <div class="input">
+    <label for="devise">Devise :</label>
+    <select name="devise" id="devise">
+    </select>
+  </div>
+  <div class="input">
+    <label for="convert">Devise à convertir :</label>
+    <select name="convert" id="convert">
+    </select>
+  </div>
+  <div>
+    <div id="button" class="btn">Convertir</div>
+  </div>
+  <div id="result"></div>
+</body>
+
+</html>
